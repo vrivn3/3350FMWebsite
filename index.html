@@ -10,20 +10,20 @@
   <meta property="og:locale" content="en_US" />
   <meta name="description" content="Re-experience music today!" />
   <meta property="og:description" content="Re-experience music today!" />
-  <link rel="canonical" href="http://localhost:4000/" />
-  <meta property="og:url" content="http://localhost:4000/" />
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/" />
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/" />
   <meta property="og:site_name" content="3350FM" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary" />
   <meta property="twitter:title" content="3350FM" />
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Roboto:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body >
+<body>
   <header class="site-header" role="banner">
     <div class="wrapper">
-      <a class="site-title" rel="author" href="/">3350FM</a>
+      <a class="site-title" rel="author" href="{{ site.baseurl }}/">3350FM</a>
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -33,62 +33,64 @@
             </svg>
           </span>
         </label>
-        <div class="trigger"><a class="page-link" href="{{ site.baseurl }}/postmortem/">Postmortem</a> <a class="page-link" href="/vision/">Our Vision</a><a class="page-link" href="/team/">Our Team</a></div>
-
+        <div class="trigger">
+          <a class="page-link" href="{{ site.baseurl }}/postmortem/">Postmortem</a>
+          <a class="page-link" href="{{ site.baseurl }}/vision/">Our Vision</a>
+          <a class="page-link" href="{{ site.baseurl }}/team/">Our Team</a>
+        </div>
       </nav>
     </div>
   </header>
 
   <main class="page-content" aria-label="Content">
-  <div class="wrapper">
-    <div class="home-container">
-      <h1 class="title">3350FM</h1>
-      <p class="text-container">
-        3350 FM's core audience will be music enthusiasts from all facets of the music world. Whether you enjoy 
-        listening to rock, k-pop, jazz, or country, 3350 FM will host a platform for music connoisseurs who want 
-        to express their love for music with other like-minded listeners. The standout feature of 3350 FM is its robust 
-        music review system, allowing users to share their thoughts and critiques on songs and albums. It’s perfect for 
-        friends who want to connect through music and share their favorite songs or albums, and for enthusiasts wanting to 
-        discover music similar to their own tastes, or looking to expand their music taste to new genres.
-      </p>
-      <div class="slogan">Re-experience music today!</div>
-      <div class="button-container">
-        <a href="vision" class="button">Our Vision</a>
-        <a href="team" class="button">Our Team</a>
+    <div class="wrapper">
+      <div class="home-container">
+        <h1 class="title">3350FM</h1>
+        <p class="text-container">
+          3350 FM's core audience will be music enthusiasts from all facets of the music world. Whether you enjoy 
+          listening to rock, k-pop, jazz, or country, 3350 FM will host a platform for music connoisseurs who want 
+          to express their love for music with other like-minded listeners. The standout feature of 3350 FM is its robust 
+          music review system, allowing users to share their thoughts and critiques on songs and albums. It’s perfect for 
+          friends who want to connect through music and share their favorite songs or albums, and for enthusiasts wanting to 
+          discover music similar to their own tastes, or looking to expand their music taste to new genres.
+        </p>
+        <div class="slogan">Re-experience music today!</div>
+        <div class="button-container">
+          <a href="{{ site.baseurl }}/vision" class="button">Our Vision</a>
+          <a href="{{ site.baseurl }}/team" class="button">Our Team</a>
+        </div>
       </div>
     </div>
-  </div>
 
-      <!-- Additional sections -->
-<div class="section">
-  <div class="section-text">
-    <h2 class="feature-title">Create your own library</h2>
-    <p class="feature-description">
-      <ul>
-        <li>Navigate to the "Search" section at the bottom of the page.</li><br>
-        <li>Navigate to the "Song" panel.</li><br>
-        <li>Access a wide variety of songs available in the panel.</li><br>
-        <li>Find the song you want to add to your library.</li><br>
-        <li>Click on the square next to the song.</li><br>
-        <li>A checkmark will appear, indicating the song has been selected.</li><br>
-        <li>Once the song is checkmarked, it is automatically added to your personal library.</li><br>
-      </ul>      
-    </p>
-  </div>
-  <div class="section-gif">
-    <img src="images/LibrarySmall.gif" alt="Library Image" class="section-image">
-  </div>
-</div>
+    <!-- Additional sections -->
+    <div class="section">
+      <div class="section-text">
+        <h2 class="feature-title">Create your own library</h2>
+        <p class="feature-description">
+          <ul>
+            <li>Navigate to the "Search" section at the bottom of the page.</li><br>
+            <li>Navigate to the "Song" panel.</li><br>
+            <li>Access a wide variety of songs available in the panel.</li><br>
+            <li>Find the song you want to add to your library.</li><br>
+            <li>Click on the square next to the song.</li><br>
+            <li>A checkmark will appear, indicating the song has been selected.</li><br>
+            <li>Once the song is checkmarked, it is automatically added to your personal library.</li><br>
+          </ul>      
+        </p>
+      </div>
+      <div class="section-gif">
+        <img src="{{ site.baseurl }}/images/LibrarySmall.gif" alt="Library Image" class="section-image">
+      </div>
+    </div>
 
-      <div class="section">
-        <div class="section-gif">
-          <img src="images/Reviews.gif" alt="Library Image" class="section-image">
-        </div>
-        <div class="section-text">
-          <h2 class="feature-title">Rate and review songs</h2>
-          <p class="feature-description">
-
-          </ul>
+    <div class="section">
+      <div class="section-gif">
+        <img src="{{ site.baseurl }}/images/Reviews.gif" alt="Library Image" class="section-image">
+      </div>
+      <div class="section-text">
+        <h2 class="feature-title">Rate and review songs</h2>
+        <p class="feature-description">
+          <ul>
             <li>It can be done from your Library or, the search page for Songs, Artists and Albums.</li><br>
             <li>Tap on the "Profile" icon in the bottom navigation bar.</li><br>
             <li>Tap on the "Library" option on the profile screen.</li><br>
@@ -98,80 +100,74 @@
             <li>Write your review in the provided text field.</li><br>
             <li>Click on "Done" to submit your review.</li><br>
           </ul>
-        Your review will then appear in the "Reviews" section on your profile.
-          </p>
-        </div>
+          Your review will then appear in the "Reviews" section on your profile.
+        </p>
       </div>
-      <div class="section">
-        <div class="section-text">
-          <h2 class="feature-title">Follow your friends</h2>
-          <p class="feature-description">
+    </div>
+    
+    <div class="section">
+      <div class="section-text">
+        <h2 class="feature-title">Follow your friends</h2>
+        <p class="feature-description">
+          <ul>
+            <li>Navigate to the "Search" section at the bottom of the page.</li><br>
+            <li>Navigate to the "Users" panel.</li><br>
+            <li>Find the user you want to add to your network.</li><br>
+            <li>Click on the square next to the user.</li><br>
+            <li>A checkmark will appear, indicating the user has been selected.</li><br>
+            <li>Once the user is checkmarked, they are automatically added to your network of "following".</li><br>
+          </ul>
+        </p>
+      </div>
+      <div class="section-gif">
+        <img src="{{ site.baseurl }}/images/FollowFriends.gif" alt="Library Image" class="section-image">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-gif">
+        <img src="{{ site.baseurl }}/images/recommendation.gif" alt="Library Image" class="section-image">
+      </div>
+      <div class="section-text">
+        <h2 class="feature-title">Share and receive tailored recommendations</h2>
+        <p class="feature-description">
+          <ul>
+            <li>It can be done from your Library or the search page for Songs, Artists, and Albums.</li><br>
+            <li>Tap on the "Profile" icon in the bottom navigation bar.</li><br>
+            <li>Tap on the "Library" option on the profile screen.</li><br>
+            <li>Click on the song you want to review from your library.</li><br>
+            <li>Tap on the plus sign next to "Review" on the right.</li><br>
+            <li>Select the number of stars you want to give.</li><br>
+            <li>Write your review in the provided text field.</li><br>
+            <li>Click on "Done" to submit your review.</li><br>
+          </ul>
+          Your review will then appear in the "Reviews" section on your profile.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-text">
+        <h2 class="feature-title">View charts</h2>
+        <p class="feature-description">
+          <p>Discover which songs are trending and have the highest or lowest ratings.</p>
             <ul>
-              <li>Navigate to the "Search" section at the bottom of the page.</li><br>
-              <li>Navigate to the "Users" panel.</li><br>
-              <li>Find the user you want to add to your network.</li><br>
-              <li>Click on the square next to the user.</li><br>
-              <li>A checkmark will appear, indicating the user has been selected.</li><br>
-              <li>Once the user is checkmarked, they are automatically added to your network of "following".</li><br>
+              <li>Navigate to the "Charts" section on the navigation bar.</li><br>
+              <li>There you will see the chart.</li><br>
+              <li>On the top right, click on "Rating" to select the order in which you want to see the chart.</li><br>
+              <li>From lowest ratings to highest ratings or the other way around.</li><br>
+              <li>Enjoy!</li><br>
             </ul>
-            
-          </p>
-        </div>
-
-        <div class="section-gif">
-          <img src="images/FollowFriends.gif" alt="Library Image" class="section-image">
-        </div>
-        </div>
-
-      <div class="section">
-        <div class="section-gif">
-          <img src="images/recommendation.gif" alt="Library Image" class="section-image">
-        </div>
-        <div class="section-text">
-          <h2 class="feature-title">Share and receive tailored recommendations</h2>
-          <p class="feature-description">
-            <p class="feature-description">
-              <ul>
-                <li>It can be done from your Library or the search page for Songs, Artists, and Albums.</li><br>
-                <li>Tap on the "Profile" icon in the bottom navigation bar.</li><br>
-                <li>Tap on the "Library" option on the profile screen.</li><br>
-                <li>Click on the song you want to review from your library.</li><br>
-                <li>Tap on the plus sign next to "Review" on the right.</li><br>
-                <li>Select the number of stars you want to give.</li><br>
-                <li>Write your review in the provided text field.</li><br>
-                <li>Click on "Done" to submit your review.</li><br>
-              </ul>
-              Your review will then appear in the "Reviews" section on your profile.
-            </p>
-          </p>
-        </div>
+        </p>
       </div>
-
-      <div class="section">
-        <div class="section-text">
-          <h2 class="feature-title">View charts</h2>
-          <p class="feature-description">
-            <p>Discover which songs are trending and have the highest or lowest ratings.</p>
-              <ul>
-                <li>Navigate to the "Charts" section on the navigation bar.</li><br>
-                <li>There you will see the chart.</li><br>
-                <li>On the top right, click on "Rating" to select the order in which you want to see the chart.</li><br>
-                <li>From lowest ratings to highest ratings or the other way around.</li><br>
-                <li>Enjoy!</li><br>
-              </ul>
-
-        </div>
-        <div class="section-gif">
-          <img src="images/Charts.gif" alt="Library Image" class="section-image">
-        </div>
+      <div class="section-gif">
+        <img src="{{ site.baseurl }}/images/Charts.gif" alt="Library Image" class="section-image">
       </div>
-
-      
     </div>
   </main>
 
   <footer class="site-footer h-card">
-    <data class="u-url" href="/"></data>
+    <data class="u-url" href="{{ site.baseurl }}/"></data>
     <div class="wrapper">
       <h2 class="footer-heading">3350FM</h2>
       <div class="footer-col-wrapper">
