@@ -18,13 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
-
 title: 3350FM
-description: 
+description: >- # this means to ignore newlines until "baseurl:"
   Re-experience music today!
-baseurl: "/3350FMwebsite" # Your repository name
-url: "https://vrivn3.github.io" # Your GitHub username
+
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
