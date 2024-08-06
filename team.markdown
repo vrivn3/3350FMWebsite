@@ -28,6 +28,6 @@ permalink: /team/
   <div class="team-member">
     <div class="team-avatar" style="background-image: url('images/avatar.jpeg');"></div>
     <h3>Thomas</h3>
-    <p>Believe in the power within you. Every challenge you face is an opportunity to grow stronger and wiser. Embrace each day with hope and determination, knowing that your dreams are within reach. No matter how tough the journey, remember that every step forward brings you closer to your goals. Trust in yourself, stay resilient, and let your light shine brightly. Your potential is limitless, and your future is filled with endless possibilities. Keep pushing forward, for the best is yet to come.</p>
+    <p>While working on this project I gained experience adding full features to legacy code and adapting to the code as needed to implement the new features. I also gained experience in the three-tier approach to development. Creating test suits and making sure the features being added are properly tested was another thing I learned. Also, I learned a lot from planning and working together with other team members about how to work well with a team and making sure that everything goes smoothly.</p>
   </div>
 </div>
