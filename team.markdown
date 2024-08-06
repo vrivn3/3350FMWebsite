@@ -13,7 +13,7 @@ permalink: /team/
   <div class="team-member">
     <div class="team-avatar" style="background-image: url('images/avatar.jpeg');"></div>
     <h3>Daniel</h3>
-    <p>Believe in the power within you. Every challenge you face is an opportunity to grow stronger and wiser. Embrace each day with hope and determination, knowing that your dreams are within reach. No matter how tough the journey, remember that every step forward brings you closer to your goals. Trust in yourself, stay resilient, and let your light shine brightly. Your potential is limitless, and your future is filled with endless possibilities. Keep pushing forward, for the best is yet to come.</p>
+    <p>In this project I gained experience on planning from the ground up. And the importance of clear communication and common goals for the team before jumping into the project. I learned about the 3-tier architecture, and designing useful user stories. I also gained experience with testing particularly with JUNIT. Evaluating iterations and discussing how to move forward proved invaluable to making sure we worked together well and were supported by one another.</p>
   </div>
   <div class="team-member">
     <div class="team-avatar" style="background-image: url('images/avatar.jpeg');"> </div>
